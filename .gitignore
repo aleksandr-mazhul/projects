@@ -1,2 +1,5 @@
 .DS_Store
 **/.DS_Store
+work/task-tracker/task-tracker/
+work/task-tracker/task-tracker-backend/
+**/.env*

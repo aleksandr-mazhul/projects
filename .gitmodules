@@ -1,0 +1,68 @@
+[submodule "mamp-wordpress-guide"]
+	path = mamp-wordpress-guide
+	url = git@github.com:aleksandr-mazhul/mamp-wordpress-guide.git
+	branch = master
+[submodule "DevOps/devops"]
+	path = DevOps/devops
+	url = git@gitlab.com:map07102007/devops.git
+	branch = main
+[submodule "DevOps/geometric_lib"]
+	path = DevOps/geometric_lib
+	url = git@github.com:aleksandr-mazhul/geometric_lib.git
+	branch = main
+[submodule "DevOps/l2task1"]
+	path = DevOps/l2task1
+	url = git@github.com:aleksandr-mazhul/l2task1.git
+	branch = main
+[submodule "DevOps/l2task2"]
+	path = DevOps/l2task2
+	url = git@github.com:aleksandr-mazhul/l2task2.git
+	branch = develop
+[submodule "DevOps/wild_animals"]
+	path = DevOps/wild_animals
+	url = git@github.com:aleksandr-mazhul/tms-git.git
+	branch = main
+[submodule "archive/cpp-development"]
+	path = archive/cpp-development
+	url = https://github.com/aleksandr-mazhul/cpp-development.git
+	branch = main
+[submodule "personal/PersonalOS"]
+	path = personal/PersonalOS
+	url = git@github.com:aleksandr-mazhul/PersonalOS.git
+	branch = main
+[submodule "personal/portfolio/feed"]
+	path = personal/portfolio/feed
+	url = git@github.com:Aleksandr-Mazhul/feed.git
+	branch = main
+[submodule "personal/portfolio/flashcards"]
+	path = personal/portfolio/flashcards
+	url = git@github.com:Aleksandr-Mazhul/flashcards-app.git
+	branch = main
+[submodule "personal/portfolio/game12"]
+	path = personal/portfolio/game12
+	url = git@github.com:Aleksandr-Mazhul/game12.git
+	branch = main
+[submodule "personal/portfolio/resume-site"]
+	path = personal/portfolio/resume-site
+	url = git@github.com:Aleksandr-Mazhul/resume.git
+	branch = main
+[submodule "personal/portfolio/simon-says"]
+	path = personal/portfolio/simon-says
+	url = git@github.com:Aleksandr-Mazhul/simon-says.git
+	branch = main
+[submodule "tutoring"]
+	path = tutoring
+	url = git@github.com:aleksandr-mazhul/tutoring.git
+	branch = main
+[submodule "university/frontend/web-design"]
+	path = university/frontend/web-design
+	url = https://github.com/aleksandr-mazhul/web-design.git
+	branch = main
+[submodule "university/frontend/web-development"]
+	path = university/frontend/web-development
+	url = https://github.com/aleksandr-mazhul/web-development.git
+	branch = main
+[submodule "university/java"]
+	path = university/java
+	url = https://github.com/aleksandr-mazhul/java.git
+	branch = main

@@ -57,7 +57,7 @@
 [submodule "university/frontend/web-design"]
 	path = university/frontend/web-design
 	url = https://github.com/aleksandr-mazhul/web-design.git
-	branch = main
+	branch = refactor
 [submodule "university/frontend/web-development"]
 	path = university/frontend/web-development
 	url = https://github.com/aleksandr-mazhul/web-development.git
@@ -70,3 +70,9 @@
 	path = health
 	url = git@github.com:aleksandr-mazhul/health.git
 	branch = main
+[submodule "work/task-tracker/task-tracker"]
+	path = work/task-tracker/task-tracker
+	url = git@github.com:aleksandr-mazhul/task-tracker.git
+[submodule "work/task-tracker/task-tracker-backend"]
+	path = work/task-tracker/task-tracker-backend
+	url = git@github.com:aleksandr-mazhul/task-tracker-backend.git

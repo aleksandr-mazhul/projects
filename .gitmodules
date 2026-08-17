@@ -66,3 +66,7 @@
 	path = university/java
 	url = https://github.com/aleksandr-mazhul/java.git
 	branch = main
+[submodule "health"]
+	path = health
+	url = git@github.com:aleksandr-mazhul/health.git
+	branch = main

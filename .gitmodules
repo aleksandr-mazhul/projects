@@ -3,11 +3,11 @@
 	url = git@github.com:aleksandr-mazhul/mamp-wordpress-guide.git
 	branch = master
 [submodule "DevOps/devops"]
-	path = DevOps/devops
+	path = DevOps/l1
 	url = git@gitlab.com:map07102007/devops.git
 	branch = main
 [submodule "DevOps/geometric_lib"]
-	path = DevOps/geometric_lib
+	path = DevOps/l2-task2
 	url = git@github.com:aleksandr-mazhul/geometric_lib.git
 	branch = main
 [submodule "DevOps/l2task1"]
@@ -19,7 +19,7 @@
 	url = git@github.com:aleksandr-mazhul/l2task2.git
 	branch = develop
 [submodule "DevOps/wild_animals"]
-	path = DevOps/wild_animals
+	path = DevOps/l2-task1
 	url = git@github.com:aleksandr-mazhul/tms-git.git
 	branch = main
 [submodule "archive/cpp-development"]
@@ -76,3 +76,7 @@
 [submodule "work/task-tracker/task-tracker-backend"]
 	path = work/task-tracker/task-tracker-backend
 	url = git@github.com:aleksandr-mazhul/task-tracker-backend.git
+[submodule "DevOps/l2-task3"]
+	path = DevOps/l2-task3
+	url = git@github.com:aleksandr-mazhul/geometric_lib.git
+	branch = main

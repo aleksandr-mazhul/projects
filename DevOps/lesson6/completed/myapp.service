@@ -1,0 +1,21 @@
+[Unit]
+Description=MyApp Node.js HTTP service
+After=network.target
+
+[Service]
+Type=simple
+User=student
+Group=student
+WorkingDirectory=/home/student/www
+Environment=HOME=/home/student
+Environment=MYAPP_PORT=3000
+Environment=NVM_DIR=/home/student/.nvm
+# Путь к node из nvm (LTS). После `nvm install --lts` сверить: `which node`.
+Environment=PATH=/home/student/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# Вариант 2 из задания: stdout → local0.info, stderr → local0.err, тег myapp.
+ExecStart=/bin/bash -c "node index.js > >(logger --tag myapp -p local0.info) 2> >(logger --tag myapp -p local0.err)"
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

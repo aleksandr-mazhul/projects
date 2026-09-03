@@ -1,0 +1,21 @@
+# /etc/logrotate.d/myapp
+# Ротация при размере > 1 KB, проверка раз в час, хранить 5 архивов.
+# size 1k — крутить, если файл больше 1 KB (это и есть «> 1 Kb» из задания).
+# hourly — период в конфиге; на Ubuntu его нужно подкрепить запуском из cron.hourly,
+# потому что logrotate.timer по умолчанию daily, а директива size при запуске
+# смотрит только на размер (интервал сама по себе не запускает logrotate).
+/var/log/myapp.log
+/var/log/myapp.errr.log {
+    size 1k
+    hourly
+    rotate 5
+    missingok
+    notifempty
+    compress
+    delaycompress
+    create 0640 syslog adm
+    sharedscripts
+    postrotate
+        /usr/lib/rsyslog/rsyslog-rotate
+    endscript
+}

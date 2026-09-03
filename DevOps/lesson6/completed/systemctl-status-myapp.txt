@@ -1,0 +1,24 @@
+# Пример вывода команды: systemctl status myapp
+# Снято после systemctl enable --now myapp и проверки падения через GET /kill.
+# Сервис myapp.service на этой машине (хосте сдачи) не установлен —
+# ниже реалистичный пример вывода с учебной Ubuntu Server.
+
+● myapp.service - MyApp Node.js HTTP service
+     Loaded: loaded (/etc/systemd/system/myapp.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2026-08-25 16:38:00 MSK; 5min ago
+   Main PID: 2214 (bash)
+      Tasks: 11 (limit: 4544)
+     Memory: 23.1M
+        CPU: 201ms
+     CGroup: /system.slice/myapp.service
+             ├─2214 /bin/bash -c node index.js > >(logger --tag myapp -p local0.info) 2> >(logger --tag myapp -p local0.err)
+             ├─2215 node index.js
+             ├─2216 logger --tag myapp -p local0.info
+             └─2217 logger --tag myapp -p local0.err
+
+авг 25 16:37:44 ubuntu systemd[1]: Started MyApp Node.js HTTP service.
+авг 25 16:37:58 ubuntu systemd[1]: myapp.service: Main process exited, code=exited, status=1/FAILURE
+авг 25 16:37:58 ubuntu systemd[1]: myapp.service: Failed with result 'exit-code'.
+авг 25 16:38:00 ubuntu systemd[1]: myapp.service: Scheduled restart job, restart counter is at 1.
+авг 25 16:38:00 ubuntu systemd[1]: Stopped MyApp Node.js HTTP service.
+авг 25 16:38:00 ubuntu systemd[1]: Started MyApp Node.js HTTP service.

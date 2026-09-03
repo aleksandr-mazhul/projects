@@ -75,3 +75,15 @@
 [submodule "personal/desktop-design-system"]
 	path = personal/desktop-design-system
 	url = git@github.com:aleksandr-mazhul/desktop-design-system.git
+[submodule "personal/meal-plan-3100"]
+	path = personal/meal-plan-3100
+	url = git@github.com:aleksandr-mazhul/meal-plan-3100.git
+	branch = main
+[submodule "personal/mmf-auto-schedule"]
+	path = personal/mmf-auto-schedule
+	url = git@github.com:aleksandr-mazhul/mmf-auto-schedule.git
+	branch = main
+[submodule "personal/session-recall"]
+	path = personal/session-recall
+	url = git@github.com:aleksandr-mazhul/session-recall.git
+	branch = main

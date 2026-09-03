@@ -1,0 +1,2422 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*                                                                       *)
+(*  This file was created under the Wolfram Enterprise licensing terms.  *)
+(*                                                                       *)
+(*       For additional information concerning CDF licensing see:        *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*                                                                       *)
+(*                                                                       *)
+(*************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1060,         20]
+NotebookDataLength[     89167,       2399]
+NotebookOptionsPosition[     66166,       2065]
+NotebookOutlinePosition[     67133,       2098]
+CellTagsIndexPosition[     67090,       2095]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\:0420\:0430\:0431\:043e\:0442\:0430\:0435\:043c \:043d\:0430\:0434 \
+\:0441\:0442\:0438\:043b\:0435\:043c \:0434\:043b\:044f \:043a\:043e\:043d\
+\:0441\:043f\:0435\:043a\:0442\:0430 \:043f\:043e \:043c\:0430\:0442\:0435\
+\:043c\:0430\:0442\:0438\:0447\:0435\:0441\:043a\:043e\:043c\:0443 \:0430\
+\:043d\:0430\:043b\:0438\:0437\:0443", "Subtitle",
+ CellMargins->{{0, Inherited}, {Inherited, 0}},
+ CellFrameMargins->{{20, 4}, {8, 20}},
+ CellChangeTimes->{{3.7790137697808056`*^9, 3.77901377781164*^9}, {
+  3.808534751752061*^9, 3.8085347807059307`*^9}},
+ FontFamily->"Arial Cyr",
+ FontSize->36,
+ FontWeight->"Bold",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"410bf766-3a98-4949-8da8-7b332d627f38"],
+
+Cell[CellGroupData[{
+
+Cell["Style Environment Names", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"6fbd669f-3e01-46d3-88ac-bae5d04d248e"],
+
+Cell[StyleData[All, "Working"],
+ ScreenStyleEnvironment->"Working",
+ PrintingStyleEnvironment->"Printout",
+ CellBracketOptions->{"Color"->RGBColor[0.115343, 0.350561, 0.362966]},
+ ShowCellLabel->True,
+ CellFrameLabelMargins->1,
+ ScriptMinSize->9,
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"4a25bf7d-1f1f-4732-bd34-2672f697cb29"],
+
+Cell[StyleData[All, "Presentation"],
+ ScreenStyleEnvironment->"Presentation",
+ PrintingStyleEnvironment->"Printout",
+ ShowCellBracket->False,
+ CellFrameLabelMargins->1,
+ ScriptMinSize->9,
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"e390b75f-443a-4642-b16d-d2a74e01a0fe"],
+
+Cell[StyleData[All, "Printout"],
+ ScreenStyleEnvironment->"Printout",
+ PrintingStyleEnvironment->"Printout",
+ PageWidth->PaperWidth,
+ PrintingOptions->{"FacingPages"->True,
+ "FirstPageHeader"->True,
+ "PrintRegistrationMarks"->False,
+ "PrintingMargins"->{{24, 74}, {72, 72}}},
+ ShowCellBracket->True,
+ FontFamily->
+  "Times New Roman",ExpressionUUID->"93bf5d7b-c2f5-4696-afed-30ce37d1f23e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Notebook Options", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"5239af6e-d200-43c7-adee-925419b25553"],
+
+Cell["\<\
+The options defined for the style below will be used at the Notebook level.\
+\>", "Text",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"e4461fe3-f5e6-4f4d-819c-0c94b4a08c31"],
+
+Cell[StyleData["Notebook"],
+ PageHeaders->{{
+    Cell[
+     TextData[{
+       ValueBox["FileName"], " \:0441\:0442\:0440. ", 
+       CounterBox["Page"]}], "PageNumber"], 
+    Cell["\:0420\:044f\:0434\:044b \:0424\:0443\:0440\:044c\:0435", "Header"],
+     Inherited}, {Inherited, 
+    Cell[
+     TextData[{"\:0411\:0413\:0423 \:041c\:041c\:0424 2002"}], "Header"], 
+    Cell[
+     TextData[{
+       ValueBox["FileName"], " \:0441\:0442\:0440. ", 
+       CounterBox["Page"]}], "PageNumber"]}},
+ PageFooters->{{
+    Cell[
+     TextData[{
+      "\:0414\:0438\:043f\:043b\:043e\:043c\:043d\:0430\:044f \:0440\:0430\
+\:0431\:043e\:0442\:0430"}], "Footer"], 
+    Cell[
+     TextData[{"\:0410.\:0412. \:041b\:0430\:0437\:0430\:0440\:0435\:0432"}], 
+     "Footer"], Inherited}, {
+    Cell[
+     TextData[{
+      "\:041d\:0430\:0443\:0447\:043d\:044b\:0439 \:0440\:0443\:043a\:043e\
+\:0432\:043e\:0434\:0438\:0442\:0435\:043b\:044c"}], "Footer"], 
+    Cell[
+     TextData[{"\:0410.\:0410. \:041a\:0443\:043b\:0435\:0448\:043e\:0432"}], 
+     "Footer"], Inherited}},
+ CellLabelPositioning->Left,
+ CellLabelAutoDelete->True,
+ CellLabelMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->6,
+ HyphenationOptions->{"HyphenationCharacter"->"-"},
+ StyleMenuListing->None,
+ FontFamily->
+  "Times New Roman",ExpressionUUID->"4dc984ae-e429-4cfd-8d1f-7294c90c0b0c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Styles for Body Text", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"78f590e3-6f8d-4e05-b5b2-670de1424927"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Text"],
+ CellMargins->{{12, 4}, {2, 4}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextAlignment->Left,
+ TextJustification->1,
+ LineSpacing->{1, 4},
+ CounterIncrements->"Text",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  0.898, 0.9529, 1],ExpressionUUID->"0b0790d2-2b77-4b56-8f9c-0bcbeb84bf34"],
+
+Cell[StyleData["Text", "Presentation"],
+ CellMargins->{{12, 4}, {2, 4}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextAlignment->Left,
+ TextJustification->1,
+ LineSpacing->{1, 4},
+ CounterIncrements->"Text",
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  0.898, 0.9529, 1],ExpressionUUID->"8fdb593b-e50e-4aa4-a1c9-648b88d00366"],
+
+Cell[StyleData["Text", "Printout"],
+ CellMargins->{{12, 4}, {2, 4}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextAlignment->Left,
+ TextJustification->1,
+ LineSpacing->{1, 4},
+ CounterIncrements->"Text",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"eda6af59-c623-4d47-b0fa-1f76fc327cd0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Text2"],
+ CellMargins->{{12, 4}, {2, 14}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 0.5],ExpressionUUID->"3139a3ea-4b14-43a0-bc47-c1b6c94c84a3"],
+
+Cell[StyleData["Text2", "Presentation"],
+ CellMargins->{{12, 4}, {2, 14}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  1, 1, 0.5],ExpressionUUID->"9b365214-ea44-4fbe-9745-a110ad28a4a4"],
+
+Cell[StyleData["Text2", "Printout"],
+ CellMargins->{{12, 4}, {2, 14}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"95dbf5a0-351a-4a0c-9183-30f4c3e34522"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Styles for Automatic Numbering", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"c0437889-2f1c-4c79-bfdd-717d60c62244"],
+
+Cell["\<\
+NumberedEquation is for DisplayFormula-type cells that you want to number \
+sequentially throughout a notebook.\
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"71cfd583-3d70-469f-83f7-e8f0f5daa4f1"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["NumberedEquation"],
+ CellMargins->{{54, 24}, {5, 10}},
+ CellFrameLabels->{{None, 
+    Cell[
+     TextData[{"(", 
+       CounterBox["NumberedEquation"], ")"}]]}, {None, None}},
+ DefaultFormatType->DefaultInputFormatType,
+ TextAlignment->Center,
+ TraditionalFunctionNotation->True,
+ CounterIncrements->"NumberedEquation",
+ FormatTypeAutoConvert->False,
+ FontFamily->"Arial Cyr",
+ FontSize->14,ExpressionUUID->"fa61dc5e-0727-4687-9a70-966d7cbf7da3"],
+
+Cell[StyleData["NumberedEquation", "Presentation"],
+ CellFrameLabels->{{None, 
+    Cell[
+     TextData[{"(", 
+       CounterBox["NumberedEquation"], ")"}]]}, {None, None}},
+ FontSize->14,ExpressionUUID->"54dfb7dd-43fd-4278-bfa4-73f862a366d6"],
+
+Cell[StyleData["NumberedEquation", "Printout"],
+ CellMargins->{{Inherited, Inherited}, {10, Inherited}},
+ CellFrameLabels->{{None, 
+    Cell[
+     TextData[{"(", 
+       CounterBox["NumberedEquation"], ")"}]]}, {None, None}},
+ FontSize->10,ExpressionUUID->"92ebf226-e4f9-427a-b9de-553b740a177b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Equation"],
+ CellMargins->{{54, 24}, {5, 10}},
+ DefaultFormatType->DefaultInputFormatType,
+ TextAlignment->Center,
+ TraditionalFunctionNotation->True,
+ FormatTypeAutoConvert->False,
+ FontFamily->"Arial Cyr",
+ FontSize->14,ExpressionUUID->"a22b0f17-2fa2-470c-a17f-7dc83c9f5f0b"],
+
+Cell[StyleData["Equation", "Presentation"],
+ FontSize->14,ExpressionUUID->"e63c69a0-b813-41f5-9ca2-8b93d56120f1"],
+
+Cell[StyleData["Equation", "Printout"],
+ CellMargins->{{Inherited, Inherited}, {10, Inherited}},
+ FontSize->10,ExpressionUUID->"c79d0ebc-0bd8-4a77-b422-96ed5d375d39"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["Unique Styles", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"18d4db33-8a16-4494-ac8d-01f2a73fa36f"],
+
+Cell["\<\
+OnlineHeader to be used at the beginning of a notebook. Precedes the Title \
+cell.\
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"a08b1479-4bb9-408b-ad3e-373ac9d8801e"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Title"],
+ ShowCellBracket->False,
+ CellMargins->{{12, 4}, {0, 0}},
+ CellGroupingRules->{"TitleGrouping", 0},
+ PageBreakBelow->False,
+ CellFrameMargins->{{2, 30}, {2, 2}},
+ TextAlignment->Left,
+ TextJustification->0,
+ LineSpacing->{1.125, 0},
+ CounterIncrements->"Title",
+ CounterAssignments->{{"Subtitle", 0}, {"Section", 0}, {"Subsection", 0}, {
+   "Subsubsection", 0}, {"List", 0}, {"NumberedFigure", 0}, {
+   "NumberedTable", 0}, {"NumberedProgram", 0}, {"Equation", 0}, {
+   "Text", 0}, {"SmallText", 0}, {"Reference", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->16,
+ FontWeight->"Bold",
+ FontSlant->"Italic",
+ FontColor->RGBColor[1, 1, 1],
+ Background->RGBColor[0, 0, 0.62745],
+ Border -> True,
+ BorderStyle -> {
+  Red, 10 px},ExpressionUUID->"520764b7-4f2a-4ee4-9292-55fddc74db69"],
+
+Cell[RawData["\<\
+Cell[StyleData[\"Title\", \"Presentation\"],
+ ShowCellBracket->False,
+ CellMargins->{{0, 25}, {Inherited, 0}},
+ CellGroupingRules->{\"TitleGrouping\", 0},
+ PageBreakBelow->False,
+ CellFrameMargins->{{2, 30}, {2, 2}},
+ TextAlignment->Left,
+ TextJustification->0,
+ LineSpacing->{1.125, 0},
+ CounterIncrements->\"Title\",
+ CounterAssignments->{{\"Subtitle\", 0}, {\"Section\", 0}, {\"Subsection\", \
+0}, {\"Subsubsection\", 0}, {\"List\", 0}, {\"NumberedFigure\", 0}, \
+{\"NumberedTable\", 0}, {
+   \"NumberedProgram\", 0}, {\"Equation\", 0}, {\"Text\", 0}, {\"SmallText\", \
+0}, {\"Reference\", 0}},
+ FontFamily->\"Arial\",
+ FontSize->26,
+ FontWeight->\"Bold\",
+ FontSlant->\"Plain\",
+ FontColor->RGBColor[0, 0, 0.62745],
+ Background->RGBColor[0.97647, 0.97647, 1]]\
+\>"],
+ ShowCellBracket->False,
+ CellMargins->{{0, 25}, {Inherited, 0}},
+ CellGroupingRules->{"TitleGrouping", 0},
+ PageBreakBelow->False,
+ CellFrameMargins->{{2, 30}, {2, 2}},
+ CellChangeTimes->{{3.9803198880737495`*^9, 3.9803199132581005`*^9}, {
+  3.980320127572941*^9, 3.9803201525169373`*^9}, {3.980320308129919*^9, 
+  3.9803203191730366`*^9}},
+ TextAlignment->Center,
+ TextJustification->0,
+ LineSpacing->{1.125, 0},
+ CounterIncrements->"Title",
+ CounterAssignments->{{"Subtitle", 0}, {"Section", 0}, {"Subsection", 0}, {
+   "Subsubsection", 0}, {"List", 0}, {"NumberedFigure", 0}, {
+   "NumberedTable", 0}, {"NumberedProgram", 0}, {"Equation", 0}, {
+   "Text", 0}, {"SmallText", 0}, {"Reference", 0}},
+ FontFamily->"Times New Roman Cyr",
+ FontSize->36,
+ FontWeight->"Bold",
+ FontSlant->"Italic",
+ FontColor->RGBColor[1, 1, 1],
+ Background->RGBColor[0, 0, 0.62745]],
+
+Cell[StyleData["Title", "Printout"],
+ ShowCellBracket->False,
+ CellMargins->{{0, 25}, {Inherited, 0}},
+ CellGroupingRules->{"TitleGrouping", 0},
+ PageBreakBelow->False,
+ CellFrameMargins->{{2, 30}, {2, 2}},
+ TextAlignment->Center,
+ TextJustification->0,
+ LineSpacing->{1.125, 0},
+ CounterIncrements->"Title",
+ CounterAssignments->{{"Subtitle", 0}, {"Section", 0}, {"Subsection", 0}, {
+   "Subsubsection", 0}, {"List", 0}, {"NumberedFigure", 0}, {
+   "NumberedTable", 0}, {"NumberedProgram", 0}, {"Equation", 0}, {
+   "Text", 0}, {"SmallText", 0}, {"Reference", 0}},
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Italic",
+ FontColor->GrayLevel[0.100008],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"160d24ae-00ef-4768-9e87-e756f2857518"]
+}, Open  ]],
+
+Cell["\<\
+Subtitle is an optional cell. Used for Tech Support column, Subtitle states \
+topics in current issue.\
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"f5131681-edfe-4284-a8d8-49af45b6aaa0"],
+
+Cell[CellGroupData[{
+
+Cell[RawData["\<\
+Cell[StyleData[\"Subtitle\"],
+ CellFrame->{{0, 0}, {2, 0}},
+ CellMargins->{{12, 4}, {2, 8}},
+ CellGroupingRules->{\"TitleGrouping\", 10},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CellFrameColor->RGBColor[0, 0, 160],
+ LineSpacing->{1, 0},
+ CounterIncrements->\"Subtitle\",
+ FontFamily->\"Calibri\",
+ FontSize->26,
+ FontWeight->\"Bold\",
+ FontSlant->\"Plain\",
+ FontColor->RGBColor[0, 0, 0.62745],
+ Background->RGBColor[0.97647, 0.97647, 1]]\
+\>"],
+ CellFrame->{{0, 0}, {2, 0}},
+ CellMargins->{{12, 4}, {2, 8}},
+ CellGroupingRules->{"TitleGrouping", 10},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CellFrameColor->RGBColor[0, 0, 160],
+ CellChangeTimes->{{3.9803201730365696`*^9, 3.9803201986970425`*^9}},
+ LineSpacing->{1, 0},
+ CounterIncrements->"Subtitle",
+ FontFamily->"Times New Roman",
+ FontSize->16,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontColor->RGBColor[0, 0, 0.62745],
+ Background->RGBColor[0.97647, 0.97647, 1]],
+
+Cell[StyleData["Subtitle", "Printout"],
+ CellFrame->{{0, 0}, {2, 0}},
+ CellMargins->{{12, 4}, {2, 8}},
+ CellGroupingRules->{"TitleGrouping", 10},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CellFrameColor->RGBColor[0, 0, 160],
+ LineSpacing->{1, 0},
+ CounterIncrements->"Subtitle",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontColor->RGBColor[0, 0, 0.62745],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"bc459add-2369-4eb6-abe2-d8dc0a678f23"],
+
+Cell[StyleData["Subtitle", "Presentation"],
+ CellFrame->{{0, 0}, {2, 0}},
+ CellMargins->{{12, 4}, {2, 8}},
+ CellGroupingRules->{"TitleGrouping", 10},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CellFrameColor->RGBColor[0, 0, 160],
+ LineSpacing->{1, 0},
+ CounterIncrements->"Subtitle",
+ FontFamily->"Arial",
+ FontSize->20,
+ FontWeight->"Bold",
+ FontSlant->"Plain",
+ FontColor->RGBColor[0, 0, 0.62745],
+ Background->RGBColor[
+  0.97647, 0.97647, 1],ExpressionUUID->"bc459add-2369-4eb6-abe2-d8dc0a678f23"]
+}, Open  ]],
+
+Cell["\<\
+SectionFirst should be used for the first Section level heading in a \
+notebook. Sets the following counter values to zero: Subsection and \
+Subsubsection. Sets Section counter value to 1.\
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"1b3ef7cc-db7a-4706-9123-5dd02d705cd0"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Section"],
+ CellDingbat->"\[FilledSquare]",
+ CellMargins->{{26, 4}, {6, 10}},
+ CellGroupingRules->{"SectionGrouping", 40},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Section",
+ CounterAssignments->{{"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Italic",
+ FontColor->RGBColor[
+  0, 0.25098, 0.50196],ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070"],
+
+Cell[StyleData["Section", "Presentation"],
+ CellDingbat->"\[FilledSquare]",
+ CellMargins->{{26, 4}, {6, 10}},
+ CellGroupingRules->{"SectionGrouping", 40},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Section",
+ CounterAssignments->{{"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}},
+ FontFamily->"Helvetica",
+ FontSize->18,
+ FontWeight->"Bold",
+ FontSlant->"Italic",
+ FontColor->RGBColor[0, 0.25098, 0.50196],
+ Background->RGBColor[
+  0.9, 0.95, 0.921],ExpressionUUID->"d89a2cff-bfe2-42bf-9263-5e12f4362293"],
+
+Cell[StyleData["Section", "Printout"],
+ CellDingbat->"\[FilledSquare]",
+ CellMargins->{{26, 4}, {6, 10}},
+ CellGroupingRules->{"SectionGrouping", 40},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Section",
+ CounterAssignments->{{"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontSlant->"Italic",
+ FontColor->RGBColor[],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"581c4c27-3276-40e5-8ec6-c8017eada93f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Subsection"],
+ CellMargins->{{12, 4}, {2, 4}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextAlignment->Left,
+ TextJustification->1,
+ LineSpacing->{1, 4},
+ CounterIncrements->"Text",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontSlant->"Italic",
+ FontColor->RGBColor[
+  0, 0.25098, 0.50196],ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070"],
+
+Cell[StyleData["Subsection", "Presentation"],
+ CellMargins->{{12, 4}, {2, 4}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextAlignment->Left,
+ TextJustification->1,
+ LineSpacing->{1, 4},
+ CounterIncrements->"Text",
+ FontFamily->"Helvetica",
+ FontSize->18,
+ FontSlant->"Italic",
+ FontColor->RGBColor[
+  0, 0.25098, 0.50196],ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070"],
+
+Cell[StyleData["Subsection", "Printout"],
+ CellMargins->{{12, 4}, {2, 4}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextAlignment->Left,
+ TextJustification->1,
+ LineSpacing->{1, 4},
+ CounterIncrements->"Text",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontSlant->"Italic",
+ FontColor->RGBColor[
+  0, 0, 0],ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["TaskTitle"],
+ ShowGroupOpener->False,
+ CellMargins->{{0, 0}, {0, 8}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontVariations->{"Underline"->True},
+ FontColor->RGBColor[0, 0.533333, 0],
+ Background->RGBColor[
+  0.95686, 0.95686, 
+   0.95686],ExpressionUUID->"3207b841-1736-4705-ae23-f97410ed1360"],
+
+Cell[StyleData["TaskTitle", "Presentation"],
+ ShowGroupOpener->False,
+ CellMargins->{{0, 0}, {0, 8}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->16,
+ FontWeight->"Bold",
+ FontVariations->{"Underline"->True},
+ FontColor->RGBColor[0, 0.533333, 0],
+ Background->RGBColor[
+  0.95686, 0.95686, 
+   0.95686],ExpressionUUID->"3207b841-1736-4705-ae23-f97410ed1360"],
+
+Cell[StyleData["TaskTitle", "Printout"],
+ ShowGroupOpener->False,
+ CellMargins->{{0, 0}, {0, 8}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontWeight->"Bold",
+ FontVariations->{"Underline"->True},
+ FontColor->RGBColor[0, 0.533333, 0],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"3207b841-1736-4705-ae23-f97410ed1360"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["TaskText"],
+ CellElementSpacings->{"ClosedGroupTopMargin"->5},
+ CellGroupingRules->{"SectionGrouping", 15},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  0.95686, 0.95686, 
+   0.95686],ExpressionUUID->"80cd9b7a-3c85-4bab-9f5c-d5918d119d2b"],
+
+Cell[StyleData["TaskText", "Presentation"],
+ CellElementSpacings->{"ClosedGroupTopMargin"->5},
+ CellGroupingRules->{"SectionGrouping", 15},
+ PageBreakBelow->True,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  0.95686, 0.95686, 
+   0.95686],ExpressionUUID->"80cd9b7a-3c85-4bab-9f5c-d5918d119d2b"],
+
+Cell[StyleData["TaskText", "Printout"],
+ CellElementSpacings->{"ClosedGroupTopMargin"->5},
+ CellGroupingRules->{"SectionGrouping", 15},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"80cd9b7a-3c85-4bab-9f5c-d5918d119d2b"]
+}, Open  ]],
+
+Cell[StyleData["BeginTaskSolution"],
+ CellDingbat->"\[EmptyUpTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextJustification->1,
+ LineSpacing->{1, 2},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"6345f6aa-c838-47e2-a521-1d965bd01ea8"],
+
+Cell[StyleData["EndTaskSolution"],
+ CellDingbat->"\[EmptyDownTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextJustification->1,
+ LineSpacing->{1, 2},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"6345f6aa-c838-47e2-a521-1d965bd01ea8"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["TaskSolutionText"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 0}, {7, 10}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CellFrameColor->RGBColor[0, 0.533333, 0],
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  0.937255, 0.929412, 
+   1],ExpressionUUID->"14439e89-079a-8b47-b3a4-8cd634febb3a"],
+
+Cell[StyleData["TaskSolutionText", "Presentation"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 0}, {7, 10}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->18,
+ Background->RGBColor[
+  0.87, 0.929412, 1],ExpressionUUID->"88c1a3ca-e633-ce47-8661-30c339a6a510"],
+
+Cell[StyleData["TaskSolutionText", "Printout"],
+ CellDingbat->None,
+ CellMargins->{{48, 0}, {7, 10}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"7329527e-d228-6946-b825-6238a66adda1"]
+}, Open  ]],
+
+Cell[StyleData["AnswerTitle"],
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0.50196, 0, 0],
+ Background->RGBColor[
+  0.95686, 0.95686, 
+   0.95686],ExpressionUUID->"2f78a042-2d91-4e17-9873-4f8a54283131"],
+
+Cell[StyleData["AnswerText"],
+ ShowGroupOpener->False,
+ CellMargins->{{18, 4}, {2, 2}},
+ CellElementSpacings->{"ClosedGroupTopMargin"->5},
+ CellGroupingRules->{"SectionGrouping", 15},
+ CellFrameColor->RGBColor[0.500008, 0, 0.500008],
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0.50196, 0, 0],
+ Background->RGBColor[0.95686, 0.95686, 0.95686],
+ CellFrameMargin -> {{8, 8}, {8, 
+  8}},ExpressionUUID->"13bb84ab-81b7-4021-9d5a-02dfda27da29"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["DefinitionTitle"],
+ CellFrame->{{1, 1}, {0, 0}},
+ ShowGroupOpener->False,
+ CellMargins->{{12, 60}, {0, 0}},
+ CellElementSpacings->{"ClosedGroupTopMargin"->5},
+ CellGroupingRules->{"SectionGrouping", 15},
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0, 128, 77],
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0, 0.50196, 0],
+ Background->RGBColor[
+  0.9098, 0.95686, 
+   0.921569],ExpressionUUID->"937347a8-8efc-ae4a-8b53-e587f085d983"],
+
+Cell[StyleData["DefinitionTitle", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ ShowGroupOpener->False,
+ CellMargins->{{12, 60}, {0, 0}},
+ CellElementSpacings->{"ClosedGroupTopMargin"->5},
+ CellGroupingRules->{"SectionGrouping", 15},
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0, 128, 77],
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ FontColor->RGBColor[0, 0.50196, 0],
+ Background->RGBColor[
+  0.9098, 0.95686, 
+   0.921569],ExpressionUUID->"e266df79-2e67-4099-91ca-5bfe6cfd2e4a"],
+
+Cell[StyleData["DefinitionTitle", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ ShowGroupOpener->False,
+ CellMargins->{{12, 60}, {0, 0}},
+ CellElementSpacings->{"ClosedGroupTopMargin"->5},
+ CellGroupingRules->{"SectionGrouping", 15},
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0, 128, 77],
+ InputAutoReplacements->{"TeX" -> StyleBox[
+     RowBox[{"T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "LaTeX" -> StyleBox[
+     RowBox[{"L", 
+       StyleBox[
+        AdjustmentBox[
+        "A", BoxMargins -> {{-0.36, -0.1}, {0, 0}}, BoxBaselineShift -> -0.2],
+         FontSize -> Smaller], "T", 
+       AdjustmentBox[
+       "E", BoxMargins -> {{-0.075, -0.085}, {0, 0}}, BoxBaselineShift -> 
+        0.5], "X"}]], "mma" -> "Mathematica", "Mma" -> "Mathematica", "MMA" -> 
+   "Mathematica", Inherited},
+ CounterIncrements->"Task",
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0, 0.50196, 0],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"e266df79-2e67-4099-91ca-5bfe6cfd2e4a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["DefinitionText"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0, 128, 77],
+ TextJustification->1,
+ LineSpacing->{1, 2},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  0.97255, 0.99608, 
+   0.98039],ExpressionUUID->"b03d5781-2751-467e-abbf-045a829e16c0"],
+
+Cell[StyleData["DefinitionText", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0, 128, 77],
+ TextJustification->1,
+ LineSpacing->{1, 2},
+ FontFamily->"Times New Roman",
+ FontSize->19,
+ Background->RGBColor[
+  0.97255, 0.99608, 
+   0.98039],ExpressionUUID->"7c9d9164-c69f-4c4d-b5eb-96aca35ec10d"],
+
+Cell[StyleData["DefinitionText", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0, 128, 77],
+ TextJustification->1,
+ LineSpacing->{1, 2},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"bd2bfc0a-ac67-5947-add2-9ff35668df2c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Note"],
+ CellFrame->{{1, 1}, {1, 1}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"cf1a0a1d-317c-434f-957d-cbf15f606e91"],
+
+Cell[StyleData["Note/Presentation"],
+ CellFrame->{{1, 1}, {1, 1}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->16,
+ Background->RGBColor[
+  0.3098, 0.95686, 
+   0.721569],ExpressionUUID->"bd96fbff-dcca-5643-965f-440772863e59"],
+
+Cell[StyleData["Note", "Printout"],
+ CellFrame->{{1, 1}, {1, 1}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"0fa9b130-3cc6-f446-95b6-3ea46d46aedc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["SuperNote"],
+ CellFrame->{{2, 2}, {2, 2}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->16,ExpressionUUID->"49baf10b-8659-47e0-af5a-57b14560ce92"],
+
+Cell[StyleData["SuperNote", "Presentation"],
+ CellFrame->{{2, 2}, {2, 2}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->16,ExpressionUUID->"49baf10b-8659-47e0-af5a-57b14560ce92"],
+
+Cell[StyleData["SuperNote", "Printout"],
+ CellFrame->{{2, 2}, {2, 2}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"49baf10b-8659-47e0-af5a-57b14560ce92"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[RawData["\<\
+Cell[StyleData[\"Axiom\"],
+ CellFrame->{{3, 3}, {3, 3}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 4],
+ FontFamily->\"Arial\",
+ FontSize->16]\
+\>"],
+ CellFrame->{{3, 3}, {3, 3}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ CellChangeTimes->{{3.980319808174679*^9, 3.9803198185407257`*^9}},
+ FontFamily->"Times New Roman",
+ FontSize->16],
+
+Cell[StyleData["Axiom", "Presentation"],
+ CellFrame->{{3, 3}, {3, 3}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->16,ExpressionUUID->"9f9c9b9e-6be1-4ef9-b09e-09964795eb46"],
+
+Cell[StyleData["Axiom", "Printout"],
+ CellFrame->{{3, 3}, {3, 3}},
+ CellMargins->{{12, 38}, {1, 8}},
+ CellFrameColor->RGBColor[0, 0, 1],
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"9f9c9b9e-6be1-4ef9-b09e-09964795eb46"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["PropertyTitle"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.60196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0.53333, 0.1, 0.5],
+ Background->RGBColor[1, 0.92941, 0.94725],
+ FontVariations -> {"Masked" -> False},
+ FontVariations -> {
+  "RotationAngle" -> 
+   0},ExpressionUUID->"cef9fd0d-c046-4497-90bd-e8c837251743"],
+
+Cell[StyleData["PropertyTitle", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.60196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ FontColor->RGBColor[0.53333, 0.1, 0.5],
+ Background->RGBColor[1, 0.92941, 0.94725],
+ FontVariations -> {"Masked" -> False},
+ FontVariations -> {
+  "RotationAngle" -> 
+   0},ExpressionUUID->"cef9fd0d-c046-4497-90bd-e8c837251743"],
+
+Cell[StyleData["PropertyTitle", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.60196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0.53333, 0.1, 0.5],
+ Background->RGBColor[1, 1, 1],
+ FontVariations -> {"Masked" -> False},
+ FontVariations -> {
+  "RotationAngle" -> 
+   0},ExpressionUUID->"cef9fd0d-c046-4497-90bd-e8c837251743"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["PropertyText"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 0.97255, 0.99216],ExpressionUUID->"41d2a236-7dd1-46d6-8a9a-edae5a7742ed"],
+
+Cell[StyleData["PropertyText", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  1, 0.97255, 0.99216],ExpressionUUID->"41d2a236-7dd1-46d6-8a9a-edae5a7742ed"],
+
+Cell[StyleData["PropertyText", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"41d2a236-7dd1-46d6-8a9a-edae5a7742ed"]
+}, Open  ]],
+
+Cell[StyleData["PropertyProofStart"],
+ CellDingbat->"\[EmptyUpTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"c9f4b355-9f80-42a2-a0be-351d655e7a11"],
+
+Cell[StyleData["PropertyProofEnd"],
+ CellDingbat->"\[EmptyDownTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"bc6a5430-0981-4cb4-a450-b34212c5a135"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["PropertyProofText"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"abb5970c-c40e-4fcd-971e-b5a7a4eff0e6"],
+
+Cell[StyleData["PropertyProofText", "Printout"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"],
+
+Cell[StyleData["PropertyProofText", "Presentation"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["TheoremTitle"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.50196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0.53333, 0, 0],
+ Background->RGBColor[
+  1, 0.92941, 0.93725],ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+
+Cell[StyleData["TheoremTitle", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.50196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ FontColor->RGBColor[0.53333, 0, 0],
+ Background->RGBColor[
+  1, 0.92941, 0.93725],ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+
+Cell[StyleData["TheoremTitle", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.50196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0.53333, 0, 0],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["TheoremText"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 0.97255, 0.99216],ExpressionUUID->"9bfcd838-0e75-470d-8fba-c62be9e0fb99"],
+
+Cell[StyleData["TheoremText", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ CellChangeTimes->{{3.8087475053996935`*^9, 3.8087475081762524`*^9}},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  1, 0.97255, 0.99216],ExpressionUUID->"464ad1d1-261e-f448-afd8-69d472fb45f2"],
+
+Cell[StyleData["TheoremText", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"d1164236-c100-ad40-abbd-d7ada49a6fb1"]
+}, Open  ]],
+
+Cell[StyleData["TheorProofStart"],
+ CellDingbat->"\[EmptyUpTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"6e7e5de9-a5b2-4c93-bdab-d3457f3cfd0a"],
+
+Cell[StyleData["TheorProofEnd"],
+ CellDingbat->"\[EmptyDownTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"21edc2cd-21e6-4735-b579-3ca2defb2cd6"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["TheorProofText"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"],
+
+Cell[StyleData["TheorProofText", "Printout"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"],
+
+Cell[StyleData["TheorProofText", "Presentation"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["PropositionTitle"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75, 0.6, 0.6],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[
+  0.8, 0, 0.8],ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+
+Cell[StyleData["PropositionTitle", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.50196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ FontColor->RGBColor[0.5, 0.7, 0],
+ Background->RGBColor[
+  1, 0.92941, 0.93725],ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+
+Cell[StyleData["PropositionTitle", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"TitleGrouping", 30},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.50196],
+ LineSpacing->{1, 1},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["PropositionText"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 0.97255, 0.99216],ExpressionUUID->"9bfcd838-0e75-470d-8fba-c62be9e0fb99"],
+
+Cell[StyleData["PropositionText", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ CellChangeTimes->{{3.8087475053996935`*^9, 3.8087475081762524`*^9}},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  1, 0.97255, 0.99216],ExpressionUUID->"97a11291-4774-454d-8d76-9dd540948b74"],
+
+Cell[StyleData["PropositionText", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 0}, {9, 3}},
+ CellFrameColor->RGBColor[0.752941, 0.50196, 0.50196],
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"7c5f3e6b-410e-5646-afff-0fa63ecba23b"]
+}, Open  ]],
+
+Cell[StyleData["PropositionProofStart"],
+ CellDingbat->"\[EmptyUpTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"6e7e5de9-a5b2-4c93-bdab-d3457f3cfd0a"],
+
+Cell[StyleData["PropositionProofEnd"],
+ CellDingbat->"\[EmptyDownTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"21edc2cd-21e6-4735-b579-3ca2defb2cd6"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["PropositionProofText"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"],
+
+Cell[StyleData["PropositionProofText", "Printout"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"],
+
+Cell[StyleData["PropositionProofText", "Presentation"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["ConseqTitle"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.815686],
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ FontColor->RGBColor[0.5333, 0, 0],
+ Background->RGBColor[
+  0.937255, 0.929412, 
+   1],ExpressionUUID->"925be80c-222c-4f00-bf6c-9dd7df13e058"],
+
+Cell[StyleData["ConseqTitle/Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.815686],
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ FontColor->RGBColor[0.5333, 0, 0],
+ Background->RGBColor[
+  0.937255, 0.929412, 
+   1],ExpressionUUID->"925be80c-222c-4f00-bf6c-9dd7df13e058"],
+
+Cell[StyleData["ConseqTitle/Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.50196, 0.815686],
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"925be80c-222c-4f00-bf6c-9dd7df13e058"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["ConseqText"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.490196, 0.80392],
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  0.937255, 0.929412, 
+   1],ExpressionUUID->"0d260f05-293b-4148-82ae-24a084981628"],
+
+Cell[StyleData["ConseqText", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.490196, 0.80392],
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  0.937255, 0.929412, 
+   1],ExpressionUUID->"0d260f05-293b-4148-82ae-24a084981628"],
+
+Cell[StyleData["ConseqText", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CellFrameColor->RGBColor[0.75294, 0.490196, 0.80392],
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"0d260f05-293b-4148-82ae-24a084981628"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["ExampleTitle"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"904c0005-cbf8-4521-a2a5-c8d143226b55"],
+
+Cell[StyleData["ExampleTitle Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  0.956863, 0.956863, 
+   0.956863],ExpressionUUID->"904c0005-cbf8-4521-a2a5-c8d143226b55"],
+
+Cell[StyleData["ExampleTitle Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"904c0005-cbf8-4521-a2a5-c8d143226b55"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["ExampleText"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  0.9764705, 0.9764705, 
+   0.9764705],ExpressionUUID->"4f981584-254b-4c03-8a12-8c91f3f39e98"],
+
+Cell[StyleData["ExampleText", "Presentation"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->17,
+ Background->RGBColor[
+  0.9764705, 0.9764705, 
+   0.9764705],ExpressionUUID->"4f981584-254b-4c03-8a12-8c91f3f39e98"],
+
+Cell[StyleData["ExampleText", "Printout"],
+ CellFrame->{{1, 1}, {0, 0}},
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{12, 38}, {1, 1}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{30, 10}, {9, 3}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"4f981584-254b-4c03-8a12-8c91f3f39e98"]
+}, Open  ]],
+
+Cell[StyleData["BeginExampleSolution"],
+ CellDingbat->"\[EmptyUpTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextJustification->1,
+ LineSpacing->{1, 2},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"86dc4bf1-c0b2-4a8f-8033-d38e96bf1b2f"],
+
+Cell[StyleData["EndExampleSolution"],
+ CellDingbat->"\[EmptyDownTriangle]",
+ CellMargins->{{48, 38}, {0, 0}},
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ TextJustification->1,
+ LineSpacing->{1, 2},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"86dc4bf1-c0b2-4a8f-8033-d38e96bf1b2f"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["ExampleSolution"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"],
+
+Cell[StyleData["ExampleSolution", "Printout"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"],
+
+Cell[StyleData["ExampleSolution", "Presentation"],
+ CellDingbat->None,
+ ShowGroupOpener->True,
+ CellMargins->{{48, 38}, {0, 0}},
+ CellGroupingRules->{"SectionGrouping", 55},
+ PageBreakBelow->False,
+ CellFrameMargins->{{8, 8}, {8, 8}},
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}},
+ FontFamily->"Times New Roman",
+ FontSize->17,ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Styles for Headings", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"e12f2d19-8110-414d-9990-e4b5331c7a58"],
+
+Cell["\<\
+Each notebook should contain at least one title cell. Title resets all cell \
+CounterBox values to zero (except Title).\
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"88c01e45-99e1-4544-8c06-aa558311d4f1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Styles for Input/Output", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"a181fbe6-6e88-4b71-bc73-4b20e9887a6b"],
+
+Cell["\<\
+The cells in this section define styles used for input and output to the \
+kernel.  Be careful when modifying, renaming, or removing these styles, \
+because the front end associates special meanings with these style names.\
+\>", "Text",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"39374f1d-b8d7-4c26-a8d5-03c491364385"],
+
+Cell[TextData[{
+ "Input cell style to be used for ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " input statements that are followed by either Output or GraphicsOnly cell \
+styles."
+}], "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"a949dd0a-a0dd-46c9-9ef3-239b95c076f6"],
+
+Cell[StyleData["Input"],
+ CellFrame->{{0.25, 0.25}, {0, 0.25}},
+ CellMargins->{{54, 24}, {-1, 2}},
+ CellElementSpacings->{"CellMinHeight"->2,
+ "ClosedCellHeight"->2},
+ Evaluatable->True,
+ CellGroupingRules->"InputGrouping",
+ CellHorizontalScrolling->True,
+ PageBreakWithin->False,
+ GroupPageBreakWithin->False,
+ CellLabelAutoDelete->True,
+ CellLabelMargins->{{23, Inherited}, {Inherited, Inherited}},
+ DefaultFormatType->DefaultInputFormatType,
+ AutoItalicWords->{},
+ ShowStringCharacters->True,
+ NumberMarks->True,
+ CounterIncrements->"Input",
+ FontFamily->"Arial Cyr",
+ FontSize->12,
+ FontWeight->"Bold",
+ Background->RGBColor[
+  0.3098, 0.95686, 
+   0.721569],ExpressionUUID->"1965261f-4dd8-3e49-898b-b1beffa448dd"],
+
+Cell[StyleData["Input", "Presentation"],
+ CellFrame->{{0.25, 0.25}, {0, 0.25}},
+ CellMargins->{{54, 24}, {-1, 2}},
+ CellElementSpacings->{"CellMinHeight"->2,
+ "ClosedCellHeight"->2},
+ Evaluatable->True,
+ CellGroupingRules->"InputGrouping",
+ CellHorizontalScrolling->True,
+ PageBreakWithin->False,
+ GroupPageBreakWithin->False,
+ CellLabelAutoDelete->True,
+ CellLabelMargins->{{23, Inherited}, {Inherited, Inherited}},
+ DefaultFormatType->DefaultInputFormatType,
+ AutoItalicWords->{},
+ ShowStringCharacters->True,
+ NumberMarks->True,
+ CounterIncrements->"Input",
+ FontFamily->"Arial Cyr",
+ FontSize->12,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.4, 0.2, 0.1],
+ Background->RGBColor[
+  0.99, 0.99, 0.7],ExpressionUUID->"2690bd9a-c047-4c77-bd66-a9ba4e2c8f23"],
+
+Cell[StyleData["Input", "Printout"],
+ FontFamily->"Times New Roman",
+ FontSize->10,
+ FontWeight->"Plain",
+ FontColor->RGBColor[0.1, 0.15, 0.7],
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"9ab14177-328e-bc4f-8fa8-379a58997872"],
+
+Cell[TextData[{
+ "InputOnly cell style to be used for ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " input statements that produce no output or graphic. See Program cell style \
+for presenting nonevaluating input statements."
+}], "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"dcc44cfa-f8f9-4b85-b296-ea1786a75c7c"],
+
+Cell["\<\
+Output cell style is usually generated by the Mathematica kernel. \
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"f8469ca4-7a6c-4f6d-a832-f105ac9f3791"],
+
+Cell[CellGroupData[{
+
+Cell[StyleData["Output"],
+ CellFrame->{{0.25, 0.25}, {0.25, 0}},
+ CellMargins->{{54, 24}, {10, 0}},
+ CellEditDuplicate->True,
+ CellGroupingRules->"OutputGrouping",
+ CellHorizontalScrolling->True,
+ PageBreakWithin->False,
+ GroupPageBreakWithin->False,
+ GeneratedCell->True,
+ CellAutoOverwrite->True,
+ CellLabelPositioning->Automatic,
+ CellLabelAutoDelete->True,
+ CellLabelMargins->{{23, Inherited}, {Inherited, Inherited}},
+ CellFrameLabelMargins->False,
+ DefaultFormatType->DefaultOutputFormatType,
+ AutoItalicWords->{},
+ CounterIncrements->"Output",
+ StyleMenuListing->None,
+ FontFamily->"Arial Cyr",
+ FontSize->14,
+ FontWeight->"Bold",
+ Background->RGBColor[
+  0.6777, 0.9444, 
+   0.433],ExpressionUUID->"3ef4ec6b-bd60-4fe3-8442-2e9ced1e1ed7"],
+
+Cell[StyleData["Output", "Presentation"],
+ CellFrame->{{0.25, 0.25}, {0.25, 0}},
+ CellMargins->{{54, 24}, {10, 0}},
+ CellEditDuplicate->True,
+ CellGroupingRules->"OutputGrouping",
+ CellHorizontalScrolling->True,
+ PageBreakWithin->False,
+ GroupPageBreakWithin->False,
+ GeneratedCell->True,
+ CellAutoOverwrite->True,
+ CellLabelPositioning->Automatic,
+ CellLabelAutoDelete->True,
+ CellLabelMargins->{{23, Inherited}, {Inherited, Inherited}},
+ CellFrameLabelMargins->False,
+ DefaultFormatType->DefaultOutputFormatType,
+ AutoItalicWords->{},
+ CounterIncrements->"Output",
+ StyleMenuListing->None,
+ FontFamily->"Arial Cyr",
+ FontSize->14,
+ FontWeight->"Bold",
+ Background->RGBColor[
+  1, 0.9444, 0.433],ExpressionUUID->"e4328359-2f1f-4977-bd40-89ae2ba9cf93"],
+
+Cell[StyleData["Output", "Printout"],
+ CellMargins->{{54, 24}, {10, 0}},
+ CellEditDuplicate->True,
+ CellGroupingRules->"OutputGrouping",
+ CellHorizontalScrolling->True,
+ PageBreakWithin->False,
+ GroupPageBreakWithin->False,
+ GeneratedCell->True,
+ CellAutoOverwrite->True,
+ CellLabelPositioning->Automatic,
+ CellLabelAutoDelete->True,
+ CellLabelMargins->{{23, Inherited}, {Inherited, Inherited}},
+ CellFrameLabelMargins->False,
+ DefaultFormatType->DefaultOutputFormatType,
+ AutoItalicWords->{},
+ CounterIncrements->"Output",
+ StyleMenuListing->None,
+ FontFamily->"Arial Cyr",
+ FontSize->14,
+ Background->RGBColor[
+  1, 1, 1],ExpressionUUID->"a670c292-30f6-4292-9ea7-1c614607dba8"]
+}, Open  ]],
+
+Cell["\<\
+Graphics cell usually output by kernel. To be preceded by Input cell, \
+followed by Output cell.\
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"58628fb7-e77f-49bc-817c-d0785c2621e7"],
+
+Cell[StyleData["Graphics"],
+ CellFrame->False,
+ CellMargins->{{54, 24}, {0, 0}},
+ CellGroupingRules->"GraphicsGrouping",
+ CellHorizontalScrolling->True,
+ PageBreakWithin->False,
+ GeneratedCell->True,
+ CellAutoOverwrite->True,
+ ShowCellLabel->False,
+ CellLabelAutoDelete->True,
+ DefaultFormatType->DefaultOutputFormatType,
+ CounterIncrements->"Graphics",
+ ImageMargins->{{30, 0}, {0, 0}},
+ StyleMenuListing->None,
+ FontFamily->"Arial Cyr",
+ Background->None,ExpressionUUID->"214c59e5-66da-4a4f-9c94-f73f1b64aa06"],
+
+Cell["\<\
+CellLabel style definition controls how labels appear when a cell has \
+ShowCellLabels->True.\
+\>", "EditorialComment",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"03a273f5-c35a-4d2f-a6f7-cee6575cee73"],
+
+Cell[StyleData["CellLabel"],
+ CellMargins->{{6, Inherited}, {Inherited, Inherited}},
+ StyleMenuListing->None,
+ FontFamily->"Arial Cyr",
+ FontSize->12,
+ FontSlant->"Plain",
+ FontColor->RGBColor[
+  0, 0, 1],ExpressionUUID->"1f1d7768-7b6b-4416-9ea0-da7af46c05dd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hyperlink Styles", "Section",
+ CellFrame->False,
+ CellDingbat->None,
+ ShowCellBracket->True,
+ CellMargins->{{0, 0}, {10, 40}},
+ CellFrameMargins->{{20, 4}, {8, 8}},
+ FontFamily->"Arial Cyr",
+ FontColor->GrayLevel[1],
+ Background->RGBColor[
+  0.269902, 0.558434, 
+   0.715618],ExpressionUUID->"3d251d3a-20f4-49fa-82e3-6b9124a77486"],
+
+Cell["\<\
+The cells below define styles useful for making hypertext ButtonBoxes.  The \
+\"Hyperlink\" style is for links within the same Notebook, or between \
+Notebooks.\
+\>", "Text",
+ FontFamily->
+  "Arial Cyr",ExpressionUUID->"902211fe-e7e4-4ef2-b104-0b10bc22f8af"],
+
+Cell[StyleData["Hyperlink"],
+ StyleMenuListing->None,
+ ButtonStyleMenuListing->Automatic,
+ FontFamily->"Arial Cyr",
+ FontSize->12,
+ FontWeight->"Plain",
+ FontVariations->{"Underline"->True},
+ FontColor->RGBColor[0, 0, 1],
+ Background->None,
+ ButtonBoxOptions->{Active->True,
+ Appearance->{Automatic, "DialogBox"},
+ ButtonFunction:>(FrontEndExecute[{
+    FrontEnd`NotebookLocate[#2]}]& ),
+ ButtonMargins->3.5,
+ ButtonMinHeight->1.5,
+ ButtonNote->
+  ButtonData},ExpressionUUID->"57beebf2-04b5-47af-bee2-bd85fe657c1e"]
+}, Open  ]],
+
+Cell["", "Title",ExpressionUUID->"fb3a8eba-d21a-47f8-82b5-cbaacf07a6bb"]
+},
+WindowToolbars->{"RulerBar", "EditBar", "MultipurposeBar"},
+CellGrouping->Manual,
+WindowSize->{1135.125, 735.75},
+WindowMargins->{{9.375, Automatic}, {Automatic, 0}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["Chapter"]], 
+   Cell[
+    StyleData["Title"]], 
+   Cell[
+    StyleData["Section"]], 
+   Cell[
+    StyleData["Subsection"]], 
+   Cell[
+    StyleData["Subsubitem"]]}, Visible -> False, FrontEndVersion -> 
+  "14.1 for Microsoft Windows (64-bit) (July 16, 2024)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"8be868b6-566c-7748-8011-671c686fd14a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[1460, 33, 761, 15, 159, "Subtitle",ExpressionUUID->"410bf766-3a98-4949-8da8-7b332d627f38"],
+Cell[CellGroupData[{
+Cell[2246, 52, 344, 10, 109, "Section",ExpressionUUID->"6fbd669f-3e01-46d3-88ac-bae5d04d248e"],
+Cell[2593, 64, 330, 8, 41, 31, 0, "StyleData", "All", "Working",ExpressionUUID->"4a25bf7d-1f1f-4732-bd34-2672f697cb29"],
+Cell[2926, 74, 271, 7, 41, 36, 0, "StyleData", "All", "Presentation",ExpressionUUID->"e390b75f-443a-4642-b16d-d2a74e01a0fe"],
+Cell[3200, 83, 389, 10, 36, 32, 0, "StyleData", "All", "Printout",ExpressionUUID->"93bf5d7b-c2f5-4696-afed-30ce37d1f23e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3626, 98, 337, 10, 109, "Section",ExpressionUUID->"5239af6e-d200-43c7-adee-925419b25553"],
+Cell[3966, 110, 183, 4, 38, "Text",ExpressionUUID->"e4461fe3-f5e6-4f4d-819c-0c94b4a08c31"],
+Cell[4152, 116, 1343, 36, 36, 27, 0, "StyleData", "Notebook", "All",ExpressionUUID->"4dc984ae-e429-4cfd-8d1f-7294c90c0b0c",
+ StyleMenuListing->None]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5532, 157, 341, 10, 109, "Section",ExpressionUUID->"78f590e3-6f8d-4e05-b5b2-670de1424927"],
+Cell[CellGroupData[{
+Cell[5898, 171, 334, 10, 52, 23, 0, "StyleData", "Text", "All",ExpressionUUID->"0b0790d2-2b77-4b56-8f9c-0bcbeb84bf34",
+ CounterIncrements->"Text"],
+Cell[6235, 183, 350, 10, 55, 39, 0, "StyleData", "Text", "Presentation",ExpressionUUID->"8fdb593b-e50e-4aa4-a1c9-648b88d00366",
+ CounterIncrements->"Text"],
+Cell[6588, 195, 337, 10, 36, 35, 0, "StyleData", "Text", "Printout",ExpressionUUID->"eda6af59-c623-4d47-b0fa-1f76fc327cd0",
+ CounterIncrements->"Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6962, 210, 234, 6, 62, 24, 0, "StyleData", "Text2", "All",ExpressionUUID->"3139a3ea-4b14-43a0-bc47-c1b6c94c84a3"],
+Cell[7199, 218, 250, 6, 65, 40, 0, "StyleData", "Text2", "Presentation",ExpressionUUID->"9b365214-ea44-4fbe-9745-a110ad28a4a4"],
+Cell[7452, 226, 212, 5, 46, 36, 0, "StyleData", "Text2", "Printout",ExpressionUUID->"95dbf5a0-351a-4a0c-9183-30f4c3e34522"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7713, 237, 351, 10, 109, "Section",ExpressionUUID->"c0437889-2f1c-4c79-bfdd-717d60c62244"],
+Cell[8067, 249, 231, 5, 26, "EditorialComment",ExpressionUUID->"71cfd583-3d70-469f-83f7-e8f0f5daa4f1"],
+Cell[CellGroupData[{
+Cell[8323, 258, 462, 12, 51, 35, 0, "StyleData", "NumberedEquation", "All",ExpressionUUID->"fa61dc5e-0727-4687-9a70-966d7cbf7da3",
+ CounterIncrements->"NumberedEquation"],
+Cell[8788, 272, 242, 5, 38, 51, 0, "StyleData", "NumberedEquation", "Presentation",ExpressionUUID->"54dfb7dd-43fd-4278-bfa4-73f862a366d6"],
+Cell[9033, 279, 295, 6, 40, 47, 0, "StyleData", "NumberedEquation", "Printout",ExpressionUUID->"92ebf226-e4f9-427a-b9de-553b740a177b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9365, 290, 293, 7, 51, 27, 0, "StyleData", "Equation", "All",ExpressionUUID->"a22b0f17-2fa2-470c-a17f-7dc83c9f5f0b"],
+Cell[9661, 299, 113, 1, 38, 43, 0, "StyleData", "Equation", "Presentation",ExpressionUUID->"e63c69a0-b813-41f5-9ca2-8b93d56120f1"],
+Cell[9777, 302, 166, 2, 40, 39, 0, "StyleData", "Equation", "Printout",ExpressionUUID->"c79d0ebc-0bd8-4a77-b422-96ed5d375d39"]
+}, Open  ]]
+}, Open  ]],
+Cell[9970, 308, 334, 10, 109, "Section",ExpressionUUID->"18d4db33-8a16-4494-ac8d-01f2a73fa36f"],
+Cell[10307, 320, 202, 5, 26, "EditorialComment",ExpressionUUID->"a08b1479-4bb9-408b-ad3e-373ac9d8801e"],
+Cell[CellGroupData[{
+Cell[10534, 329, 807, 22, 36, 24, 0, "StyleData", "Title", "All",ExpressionUUID->"520764b7-4f2a-4ee4-9292-55fddc74db69",
+ CounterIncrements->"Title",
+ CounterAssignments->{{"Subtitle", 0}, {"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}, {"List", 0}, {"NumberedFigure", 0}, {"NumberedTable", 0}, {"NumberedProgram", 0}, {"Equation", 0}, {"Text", 0}, {"SmallText", 0}, {"Reference", 0}}],
+Cell[11344, 353, 1652, 44, 277, InheritFromParent,ExpressionUUID->"975db383-d881-6347-aa4f-234660875ef3",
+ CellGroupingRules->{"TitleGrouping", 0},
+ PageBreakBelow->False,
+ CounterIncrements->"Title",
+ CounterAssignments->{{"Subtitle", 0}, {"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}, {"List", 0}, {"NumberedFigure", 0}, {"NumberedTable", 0}, {"NumberedProgram", 0}, {"Equation", 0}, {"Text", 0}, {"SmallText", 0}, {"Reference", 0}}],
+Cell[12999, 399, 746, 19, 34, 36, 0, "StyleData", "Title", "Printout",ExpressionUUID->"160d24ae-00ef-4768-9e87-e756f2857518",
+ CounterIncrements->"Title",
+ CounterAssignments->{{"Subtitle", 0}, {"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}, {"List", 0}, {"NumberedFigure", 0}, {"NumberedTable", 0}, {"NumberedProgram", 0}, {"Equation", 0}, {"Text", 0}, {"SmallText", 0}, {"Reference", 0}}]
+}, Open  ]],
+Cell[13760, 421, 222, 5, 26, "EditorialComment",ExpressionUUID->"f5131681-edfe-4284-a8d8-49af45b6aaa0"],
+Cell[CellGroupData[{
+Cell[14007, 430, 984, 31, 232, InheritFromParent,ExpressionUUID->"89b97810-e514-1c48-8cdc-86946077487f",
+ CellGroupingRules->{"TitleGrouping", 10},
+ PageBreakBelow->False,
+ CounterIncrements->"Subtitle"],
+Cell[14994, 463, 514, 15, 50, 39, 0, "StyleData", "Subtitle", "Printout",ExpressionUUID->"bc459add-2369-4eb6-abe2-d8dc0a678f23",
+ CounterIncrements->"Subtitle"],
+Cell[15511, 480, 520, 15, 65, 43, 0, "StyleData", "Subtitle", "Presentation",ExpressionUUID->"bc459add-2369-4eb6-abe2-d8dc0a678f23",
+ CounterIncrements->"Subtitle"]
+}, Open  ]],
+Cell[16046, 498, 308, 6, 26, "EditorialComment",ExpressionUUID->"1b3ef7cc-db7a-4706-9123-5dd02d705cd0"],
+Cell[CellGroupData[{
+Cell[16379, 508, 501, 13, 46, 26, 0, "StyleData", "Section", "All",ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070",
+ CounterIncrements->"Section",
+ CounterAssignments->{{"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}}],
+Cell[16883, 523, 552, 14, 67, 42, 0, "StyleData", "Section", "Presentation",ExpressionUUID->"d89a2cff-bfe2-42bf-9263-5e12f4362293",
+ CounterIncrements->"Section",
+ CounterAssignments->{{"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}}],
+Cell[17438, 539, 526, 14, 40, 38, 0, "StyleData", "Section", "Printout",ExpressionUUID->"581c4c27-3276-40e5-8ec6-c8017eada93f",
+ CounterIncrements->"Section",
+ CounterAssignments->{{"Section", 0}, {"Subsection", 0}, {"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18001, 558, 364, 11, 36, 29, 0, "StyleData", "Subsection", "All",ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070",
+ CounterIncrements->"Text"],
+Cell[18368, 571, 374, 11, 41, 45, 0, "StyleData", "Subsection", "Presentation",ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070",
+ CounterIncrements->"Text"],
+Cell[18745, 584, 364, 11, 36, 41, 0, "StyleData", "Subsection", "Printout",ExpressionUUID->"bfc55299-dca4-4613-8766-a6b83d8c7070",
+ CounterIncrements->"Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19146, 600, 970, 25, 54, 28, 0, "StyleData", "TaskTitle", "All",ExpressionUUID->"3207b841-1736-4705-ae23-f97410ed1360",
+ CounterIncrements->"Task"],
+Cell[20119, 627, 1007, 26, 56, 44, 0, "StyleData", "TaskTitle", "Presentation",ExpressionUUID->"3207b841-1736-4705-ae23-f97410ed1360",
+ CounterIncrements->"Task"],
+Cell[21129, 655, 981, 25, 38, 40, 0, "StyleData", "TaskTitle", "Printout",ExpressionUUID->"3207b841-1736-4705-ae23-f97410ed1360",
+ CounterIncrements->"Task"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22147, 685, 956, 24, 54, 27, 0, "StyleData", "TaskText", "All",ExpressionUUID->"80cd9b7a-3c85-4bab-9f5c-d5918d119d2b",
+ CounterIncrements->"Task"],
+Cell[23106, 711, 971, 24, 54, 43, 0, "StyleData", "TaskText", "Presentation",ExpressionUUID->"80cd9b7a-3c85-4bab-9f5c-d5918d119d2b",
+ CounterIncrements->"Task"],
+Cell[24080, 737, 946, 23, 38, 39, 0, "StyleData", "TaskText", "Printout",ExpressionUUID->"80cd9b7a-3c85-4bab-9f5c-d5918d119d2b",
+ CounterIncrements->"Task"]
+}, Open  ]],
+Cell[25041, 763, 290, 7, 30, 36, 0, "StyleData", "BeginTaskSolution", "All",ExpressionUUID->"6345f6aa-c838-47e2-a521-1d965bd01ea8"],
+Cell[25334, 772, 290, 7, 30, 34, 0, "StyleData", "EndTaskSolution", "All",ExpressionUUID->"6345f6aa-c838-47e2-a521-1d965bd01ea8"],
+Cell[CellGroupData[{
+Cell[25649, 783, 526, 15, 63, 35, 0, "StyleData", "TaskSolutionText", "All",ExpressionUUID->"14439e89-079a-8b47-b3a4-8cd634febb3a",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[26178, 800, 461, 12, 68, 51, 0, "StyleData", "TaskSolutionText", "Presentation",ExpressionUUID->"88c1a3ca-e633-ce47-8661-30c339a6a510",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[26642, 814, 378, 10, 70, 47, 0, "StyleData", "TaskSolutionText", "Printout",ExpressionUUID->"7329527e-d228-6946-b825-6238a66adda1",
+ CounterIncrements->"Subsection"]
+}, Open  ]],
+Cell[27035, 827, 263, 7, 70, 30, 0, "StyleData", "AnswerTitle", "All",ExpressionUUID->"2f78a042-2d91-4e17-9873-4f8a54283131"],
+Cell[27301, 836, 1076, 26, 70, 29, 0, "StyleData", "AnswerText", "All",ExpressionUUID->"13bb84ab-81b7-4021-9d5a-02dfda27da29",
+ CounterIncrements->"Task"],
+Cell[CellGroupData[{
+Cell[28402, 866, 1106, 28, 70, 34, 0, "StyleData", "DefinitionTitle", "All",ExpressionUUID->"937347a8-8efc-ae4a-8b53-e587f085d983",
+ CounterIncrements->"Task"],
+Cell[29511, 896, 1122, 28, 70, 50, 0, "StyleData", "DefinitionTitle", "Presentation",ExpressionUUID->"e266df79-2e67-4099-91ca-5bfe6cfd2e4a",
+ CounterIncrements->"Task"],
+Cell[30636, 926, 1096, 27, 70, 46, 0, "StyleData", "DefinitionTitle", "Printout",ExpressionUUID->"e266df79-2e67-4099-91ca-5bfe6cfd2e4a",
+ CounterIncrements->"Task"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31769, 958, 379, 11, 70, 33, 0, "StyleData", "DefinitionText", "All",ExpressionUUID->"b03d5781-2751-467e-abbf-045a829e16c0"],
+Cell[32151, 971, 395, 11, 70, 49, 0, "StyleData", "DefinitionText", "Presentation",ExpressionUUID->"7c9d9164-c69f-4c4d-b5eb-96aca35ec10d"],
+Cell[32549, 984, 369, 10, 70, 45, 0, "StyleData", "DefinitionText", "Printout",ExpressionUUID->"bd2bfc0a-ac67-5947-add2-9ff35668df2c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32955, 999, 225, 5, 70, 23, 0, "StyleData", "Note", "All",ExpressionUUID->"cf1a0a1d-317c-434f-957d-cbf15f606e91"],
+Cell[33183, 1006, 295, 8, 70, 36, 0, "StyleData", "Note/Presentation", "All",ExpressionUUID->"bd96fbff-dcca-5643-965f-440772863e59"],
+Cell[33481, 1016, 272, 7, 70, 35, 0, "StyleData", "Note", "Printout",ExpressionUUID->"0fa9b130-3cc6-f446-95b6-3ea46d46aedc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33790, 1028, 230, 5, 70, 28, 0, "StyleData", "SuperNote", "All",ExpressionUUID->"49baf10b-8659-47e0-af5a-57b14560ce92"],
+Cell[34023, 1035, 246, 5, 70, 44, 0, "StyleData", "SuperNote", "Presentation",ExpressionUUID->"49baf10b-8659-47e0-af5a-57b14560ce92"],
+Cell[34272, 1042, 242, 5, 70, 40, 0, "StyleData", "SuperNote", "Printout",ExpressionUUID->"49baf10b-8659-47e0-af5a-57b14560ce92"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[34551, 1052, 405, 13, 70, InheritFromParent,ExpressionUUID->"9f8cce35-618c-e04e-8aa2-59ef8cc1d7be"],
+Cell[34959, 1067, 242, 5, 70, 40, 0, "StyleData", "Axiom", "Presentation",ExpressionUUID->"9f9c9b9e-6be1-4ef9-b09e-09964795eb46"],
+Cell[35204, 1074, 238, 5, 70, 36, 0, "StyleData", "Axiom", "Printout",ExpressionUUID->"9f9c9b9e-6be1-4ef9-b09e-09964795eb46"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[35479, 1084, 555, 15, 70, 32, 0, "StyleData", "PropertyTitle", "All",ExpressionUUID->"cef9fd0d-c046-4497-90bd-e8c837251743"],
+Cell[36037, 1101, 571, 15, 70, 48, 0, "StyleData", "PropertyTitle", "Presentation",ExpressionUUID->"cef9fd0d-c046-4497-90bd-e8c837251743"],
+Cell[36611, 1118, 555, 15, 70, 44, 0, "StyleData", "PropertyTitle", "Printout",ExpressionUUID->"cef9fd0d-c046-4497-90bd-e8c837251743"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37203, 1138, 405, 11, 70, 31, 0, "StyleData", "PropertyText", "All",ExpressionUUID->"41d2a236-7dd1-46d6-8a9a-edae5a7742ed"],
+Cell[37611, 1151, 421, 11, 70, 47, 0, "StyleData", "PropertyText", "Presentation",ExpressionUUID->"41d2a236-7dd1-46d6-8a9a-edae5a7742ed"],
+Cell[38035, 1164, 405, 11, 70, 43, 0, "StyleData", "PropertyText", "Printout",ExpressionUUID->"41d2a236-7dd1-46d6-8a9a-edae5a7742ed"]
+}, Open  ]],
+Cell[38455, 1178, 246, 5, 70, 37, 0, "StyleData", "PropertyProofStart", "All",ExpressionUUID->"c9f4b355-9f80-42a2-a0be-351d655e7a11"],
+Cell[38704, 1185, 246, 5, 70, 35, 0, "StyleData", "PropertyProofEnd", "All",ExpressionUUID->"bc6a5430-0981-4cb4-a450-b34212c5a135"],
+Cell[CellGroupData[{
+Cell[38975, 1194, 401, 10, 70, 36, 0, "StyleData", "PropertyProofText", "All",ExpressionUUID->"abb5970c-c40e-4fcd-971e-b5a7a4eff0e6",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[39379, 1206, 413, 10, 70, 48, 0, "StyleData", "PropertyProofText", "Printout",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[39795, 1218, 417, 10, 70, 52, 0, "StyleData", "PropertyProofText", "Presentation",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40249, 1233, 463, 12, 70, 31, 0, "StyleData", "TheoremTitle", "All",ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+Cell[40715, 1247, 479, 12, 70, 47, 0, "StyleData", "TheoremTitle", "Presentation",ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+Cell[41197, 1261, 463, 12, 70, 43, 0, "StyleData", "TheoremTitle", "Printout",ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41697, 1278, 404, 11, 70, 30, 0, "StyleData", "TheoremText", "All",ExpressionUUID->"9bfcd838-0e75-470d-8fba-c62be9e0fb99"],
+Cell[42104, 1291, 490, 12, 70, 46, 0, "StyleData", "TheoremText", "Presentation",ExpressionUUID->"464ad1d1-261e-f448-afd8-69d472fb45f2"],
+Cell[42597, 1305, 404, 11, 70, 42, 0, "StyleData", "TheoremText", "Printout",ExpressionUUID->"d1164236-c100-ad40-abbd-d7ada49a6fb1"]
+}, Open  ]],
+Cell[43016, 1319, 243, 5, 70, 34, 0, "StyleData", "TheorProofStart", "All",ExpressionUUID->"6e7e5de9-a5b2-4c93-bdab-d3457f3cfd0a"],
+Cell[43262, 1326, 243, 5, 70, 32, 0, "StyleData", "TheorProofEnd", "All",ExpressionUUID->"21edc2cd-21e6-4735-b579-3ca2defb2cd6"],
+Cell[CellGroupData[{
+Cell[43530, 1335, 398, 10, 70, 33, 0, "StyleData", "TheorProofText", "All",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[43931, 1347, 445, 12, 70, 45, 0, "StyleData", "TheorProofText", "Printout",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[44379, 1361, 414, 10, 70, 49, 0, "StyleData", "TheorProofText", "Presentation",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44830, 1376, 410, 11, 70, 35, 0, "StyleData", "PropositionTitle", "All",ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+Cell[45243, 1389, 481, 12, 70, 51, 0, "StyleData", "PropositionTitle", "Presentation",ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"],
+Cell[45727, 1403, 430, 11, 70, 47, 0, "StyleData", "PropositionTitle", "Printout",ExpressionUUID->"f499072b-c348-44bf-814d-a43f252e0a70"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46194, 1419, 408, 11, 70, 34, 0, "StyleData", "PropositionText", "All",ExpressionUUID->"9bfcd838-0e75-470d-8fba-c62be9e0fb99"],
+Cell[46605, 1432, 494, 12, 70, 50, 0, "StyleData", "PropositionText", "Presentation",ExpressionUUID->"97a11291-4774-454d-8d76-9dd540948b74"],
+Cell[47102, 1446, 408, 11, 70, 46, 0, "StyleData", "PropositionText", "Printout",ExpressionUUID->"7c5f3e6b-410e-5646-afff-0fa63ecba23b"]
+}, Open  ]],
+Cell[47525, 1460, 249, 5, 70, 40, 0, "StyleData", "PropositionProofStart", "All",ExpressionUUID->"6e7e5de9-a5b2-4c93-bdab-d3457f3cfd0a"],
+Cell[47777, 1467, 249, 5, 70, 38, 0, "StyleData", "PropositionProofEnd", "All",ExpressionUUID->"21edc2cd-21e6-4735-b579-3ca2defb2cd6"],
+Cell[CellGroupData[{
+Cell[48051, 1476, 404, 10, 70, 39, 0, "StyleData", "PropositionProofText", "All",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[48458, 1488, 451, 12, 70, 51, 0, "StyleData", "PropositionProofText", "Printout",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[48912, 1502, 420, 10, 70, 55, 0, "StyleData", "PropositionProofText", "Presentation",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49369, 1517, 571, 16, 70, 30, 0, "StyleData", "ConseqTitle", "All",ExpressionUUID->"925be80c-222c-4f00-bf6c-9dd7df13e058",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[49943, 1535, 584, 16, 70, 43, 0, "StyleData", "ConseqTitle/Presentation", "All",ExpressionUUID->"925be80c-222c-4f00-bf6c-9dd7df13e058",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[50530, 1553, 526, 14, 70, 39, 0, "StyleData", "ConseqTitle/Printout", "All",ExpressionUUID->"925be80c-222c-4f00-bf6c-9dd7df13e058",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51093, 1572, 534, 15, 70, 29, 0, "StyleData", "ConseqText", "All",ExpressionUUID->"0d260f05-293b-4148-82ae-24a084981628",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[51630, 1589, 550, 15, 70, 45, 0, "StyleData", "ConseqText", "Presentation",ExpressionUUID->"0d260f05-293b-4148-82ae-24a084981628",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[52183, 1606, 528, 14, 70, 41, 0, "StyleData", "ConseqText", "Printout",ExpressionUUID->"0d260f05-293b-4148-82ae-24a084981628",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52748, 1625, 463, 13, 70, 31, 0, "StyleData", "ExampleTitle", "All",ExpressionUUID->"904c0005-cbf8-4521-a2a5-c8d143226b55",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[53214, 1640, 501, 14, 70, 44, 0, "StyleData", "ExampleTitle Presentation", "All",ExpressionUUID->"904c0005-cbf8-4521-a2a5-c8d143226b55",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[53718, 1656, 472, 13, 70, 40, 0, "StyleData", "ExampleTitle Printout", "All",ExpressionUUID->"904c0005-cbf8-4521-a2a5-c8d143226b55",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54227, 1674, 490, 14, 70, 30, 0, "StyleData", "ExampleText", "All",ExpressionUUID->"4f981584-254b-4c03-8a12-8c91f3f39e98",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[54720, 1690, 506, 14, 70, 46, 0, "StyleData", "ExampleText", "Presentation",ExpressionUUID->"4f981584-254b-4c03-8a12-8c91f3f39e98",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[55229, 1706, 474, 13, 70, 42, 0, "StyleData", "ExampleText", "Printout",ExpressionUUID->"4f981584-254b-4c03-8a12-8c91f3f39e98",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[55718, 1722, 293, 7, 70, 39, 0, "StyleData", "BeginExampleSolution", "All",ExpressionUUID->"86dc4bf1-c0b2-4a8f-8033-d38e96bf1b2f"],
+Cell[56014, 1731, 293, 7, 70, 37, 0, "StyleData", "EndExampleSolution", "All",ExpressionUUID->"86dc4bf1-c0b2-4a8f-8033-d38e96bf1b2f"],
+Cell[CellGroupData[{
+Cell[56332, 1742, 399, 10, 70, 34, 0, "StyleData", "ExampleSolution", "All",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[56734, 1754, 446, 12, 70, 46, 0, "StyleData", "ExampleSolution", "Printout",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}],
+Cell[57183, 1768, 415, 10, 70, 50, 0, "StyleData", "ExampleSolution", "Presentation",ExpressionUUID->"b658aa7e-f8ef-4b02-9c87-a074a30b80a1",
+ CounterIncrements->"Subsection",
+ CounterAssignments->{{"Subsubsection", 0}}]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[57635, 1783, 340, 10, 70, "Section",ExpressionUUID->"e12f2d19-8110-414d-9990-e4b5331c7a58"],
+Cell[57978, 1795, 239, 5, 70, "EditorialComment",ExpressionUUID->"88c01e45-99e1-4544-8c06-aa558311d4f1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[58254, 1805, 344, 10, 70, "Section",ExpressionUUID->"a181fbe6-6e88-4b71-bc73-4b20e9887a6b"],
+Cell[58601, 1817, 330, 6, 70, "Text",ExpressionUUID->"39374f1d-b8d7-4c26-a8d5-03c491364385"],
+Cell[58934, 1825, 296, 8, 70, "EditorialComment",ExpressionUUID->"a949dd0a-a0dd-46c9-9ef3-239b95c076f6"],
+Cell[59233, 1835, 718, 22, 70, 24, 0, "StyleData", "Input", "All",ExpressionUUID->"1965261f-4dd8-3e49-898b-b1beffa448dd",
+ CounterIncrements->"Input"],
+Cell[59954, 1859, 757, 22, 70, 40, 0, "StyleData", "Input", "Presentation",ExpressionUUID->"2690bd9a-c047-4c77-bd66-a9ba4e2c8f23",
+ CounterIncrements->"Input"],
+Cell[60714, 1883, 233, 6, 70, 36, 0, "StyleData", "Input", "Printout",ExpressionUUID->"9ab14177-328e-bc4f-8fa8-379a58997872"],
+Cell[60950, 1891, 341, 8, 70, "EditorialComment",ExpressionUUID->"dcc44cfa-f8f9-4b85-b296-ea1786a75c7c"],
+Cell[61294, 1901, 186, 4, 70, "EditorialComment",ExpressionUUID->"f8469ca4-7a6c-4f6d-a832-f105ac9f3791"],
+Cell[CellGroupData[{
+Cell[61505, 1909, 745, 23, 70, 25, 0, "StyleData", "Output", "All",ExpressionUUID->"3ef4ec6b-bd60-4fe3-8442-2e9ced1e1ed7",
+ CounterIncrements->"Output",
+ StyleMenuListing->None],
+Cell[62253, 1934, 752, 22, 70, 41, 0, "StyleData", "Output", "Presentation",ExpressionUUID->"e4328359-2f1f-4977-bd40-89ae2ba9cf93",
+ CounterIncrements->"Output",
+ StyleMenuListing->None],
+Cell[63008, 1958, 679, 20, 70, 37, 0, "StyleData", "Output", "Printout",ExpressionUUID->"a670c292-30f6-4292-9ea7-1c614607dba8",
+ CounterIncrements->"Output",
+ StyleMenuListing->None]
+}, Open  ]],
+Cell[63702, 1981, 216, 5, 70, "EditorialComment",ExpressionUUID->"58628fb7-e77f-49bc-817c-d0785c2621e7"],
+Cell[63921, 1988, 512, 15, 70, 27, 0, "StyleData", "Graphics", "All",ExpressionUUID->"214c59e5-66da-4a4f-9c94-f73f1b64aa06",
+ CounterIncrements->"Graphics",
+ StyleMenuListing->None],
+Cell[64436, 2005, 213, 5, 70, "EditorialComment",ExpressionUUID->"03a273f5-c35a-4d2f-a6f7-cee6575cee73"],
+Cell[64652, 2012, 260, 7, 70, 28, 0, "StyleData", "CellLabel", "All",ExpressionUUID->"1f1d7768-7b6b-4416-9ea0-da7af46c05dd",
+ StyleMenuListing->None]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[64949, 2024, 337, 10, 70, "Section",ExpressionUUID->"3d251d3a-20f4-49fa-82e3-6b9124a77486"],
+Cell[65289, 2036, 268, 6, 70, "Text",ExpressionUUID->"902211fe-e7e4-4ef2-b104-0b10bc22f8af"],
+Cell[65560, 2044, 515, 16, 70, 28, 0, "StyleData", "Hyperlink", "All",ExpressionUUID->"57beebf2-04b5-47af-bee2-bd85fe657c1e",
+ StyleMenuListing->None,
+ ButtonStyleMenuListing->Automatic]
+}, Open  ]],
+Cell[66090, 2063, 72, 0, 70, "Title",ExpressionUUID->"fb3a8eba-d21a-47f8-82b5-cbaacf07a6bb"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

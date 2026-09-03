@@ -87,3 +87,7 @@
 	path = personal/session-recall
 	url = git@github.com:aleksandr-mazhul/session-recall.git
 	branch = main
+[submodule "university/numerical-methods"]
+	path = university/numerical-methods
+	url = git@github.com:aleksandr-mazhul/numerical-methods.git
+	branch = main

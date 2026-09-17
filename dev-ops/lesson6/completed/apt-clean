@@ -1,6 +1,0 @@
-#!/bin/sh
-# /etc/cron.daily/apt-clean
-# Ежедневная очистка локального кэша пакетов apt.
-# run-parts запускает этот файл от root один раз в сутки.
-set -e
-/usr/bin/apt-get clean

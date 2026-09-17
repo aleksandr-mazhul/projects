@@ -2,14 +2,6 @@
 	path = personal/mamp-wordpress-guide
 	url = git@github.com:aleksandr-mazhul/mamp-wordpress-guide.git
 	branch = master
-[submodule "DevOps/l1-task1"]
-	path = dev-ops/lesson1/completed/l1-task1
-	url = git@gitlab.com:map07102007/devops.git
-	branch = main
-[submodule "DevOps/l2-task1"]
-	path = dev-ops/lesson2/completed/l2-task1
-	url = git@github.com:aleksandr-mazhul/l2-task1.git
-	branch = main
 [submodule "archive/cpp-development"]
 	path = archive/cpp-development
 	url = https://github.com/aleksandr-mazhul/cpp-development.git
@@ -64,13 +56,9 @@
 [submodule "work/task-tracker/task-tracker-backend"]
 	path = work/task-tracker/task-tracker-backend
 	url = git@github.com:aleksandr-mazhul/task-tracker-backend.git
-[submodule "DevOps/l2-task2"]
-	path = dev-ops/lesson2/completed/l2-task2
-	url = git@github.com:aleksandr-mazhul/l2-task2.git
-	branch = main
-[submodule "DevOps/l2-task3"]
-	path = dev-ops/lesson2/completed/l2-task3
-	url = git@github.com:aleksandr-mazhul/l2-task3.git
+[submodule "dev-ops"]
+	path = dev-ops
+	url = git@github.com:aleksandr-mazhul/dev-ops.git
 	branch = main
 [submodule "personal/desktop-design-system"]
 	path = personal/desktop-design-system

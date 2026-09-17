@@ -1,5 +1,0 @@
-#!/bin/sh
-# /etc/cron.hourly/logrotate-myapp
-# Задание: ротация 1 раз в час. Ubuntu по умолчанию вызывает logrotate раз в сутки.
-set -e
-/usr/sbin/logrotate /etc/logrotate.d/myapp

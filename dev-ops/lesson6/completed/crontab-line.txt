@@ -1,4 +1,0 @@
-# Альтернатива скрипту /etc/cron.daily/apt-clean:
-# строка для корневого crontab (sudo crontab -e).
-# Запуск каждый день в 03:00.
-0 3 * * * /usr/bin/apt-get clean
